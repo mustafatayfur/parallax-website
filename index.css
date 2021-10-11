@@ -48,8 +48,19 @@
         }
         
         #main2,
+        #main6 {
+            /* background-attachment: scroll;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center; */
+            padding: 100px;
+            text-align: center;
+        }
+        
         #main4,
-        #main6,
         #main8 {
             /* background-attachment: scroll;
             background-position: center;
@@ -58,8 +69,10 @@
             display: flex;
             align-items: center;
             justify-content: center; */
-            padding: 50px;
+            padding: 100px;
             text-align: center;
+            background-color: rgb(41, 41, 41);
+            color: white;
         }
         
         #main1 {
@@ -97,4 +110,15 @@
         #main6 h2,
         #main8 h2 {
             align-items: center;
+            font-weight: bold;
+            font-size: 2.5em;
+        }
+        
+        #main2 p,
+        #main4 p,
+        #main6 p,
+        #main8 p {
+            font-size: 1.5em;
+            line-height: 50px;
+            text-align: center;
         }
