@@ -1,124 +1,126 @@
-        body,
-        html {
-            height: 100%;
-            margin: 0;
-            font-size: 16px;
-            box-sizing: border-box;
-            font-family: "Lato", sans-serif;
-            font-weight: 600;
-            line-height: 1.8em;
-            color: #666;
-            /* display: block; */
-        }
-        
-        #main1,
-        #main3,
-        #main5,
-        #main7,
-        #main9 {
-            background-attachment: fixed;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            opacity: 0.7;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        #main1 div,
-        #main5 div,
-        #main7 div,
-        #main9 div {
-            font-size: 44px;
-            text-align: center;
-            letter-spacing: 10px;
-            width: auto;
-            height: 120px;
-        }
-        
-        span {
-            padding: 34px;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.8);
-            border-top-left-radius: 30px;
-            border-bottom-right-radius: 30px;
-            outline: 0.5rem inset purple;
-            outline-offset: 1rem;
-        }
-        
-        #main2,
-        #main6 {
-            /* background-attachment: scroll;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            align-items: center;
-            justify-content: center; */
-            padding: 100px;
-            text-align: center;
-        }
-        
-        #main4,
-        #main8 {
-            /* background-attachment: scroll;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            align-items: center;
-            justify-content: center; */
-            padding: 100px;
-            text-align: center;
-            background-color: rgb(41, 41, 41);
-            color: white;
-        }
-        
-        #main1 {
-            background-image: url('./images/bg.jpg');
-            min-height: 100%;
-        }
-        
-        #main3 {
-            background-image: url('./images/bg1.jpg');
-            min-height: 600px;
-        }
-        
-        #main3-img {
-            width: 500px;
-            height: auto;
-        }
-        
-        #main5 {
-            background-image: url('./images/bg2.jpg');
-            min-height: 600px;
-        }
-        
-        #main7 {
-            background-image: url('./images/bg3.jpg');
-            min-height: 600px;
-        }
-        
-        #main9 {
-            background-image: url('./images/bg4.jpg');
-            min-height: 100%;
-        }
-        
-        #main2 h2,
-        #main4 h2,
-        #main6 h2,
-        #main8 h2 {
-            align-items: center;
-            font-weight: bold;
-            font-size: 2.5em;
-        }
-        
-        #main2 p,
-        #main4 p,
-        #main6 p,
-        #main8 p {
-            font-size: 1.5em;
-            line-height: 50px;
-            text-align: center;
-        }
+                                                                                                                                                                                                body,
+                                                                                                                                                                                                html {
+                                                                                                                                                                                                    height: 100%;
+                                                                                                                                                                                                    margin: 0;
+                                                                                                                                                                                                    font-size: 16px;
+                                                                                                                                                                                                    box-sizing: border-box;
+                                                                                                                                                                                                    font-family: "Lato", sans-serif;
+                                                                                                                                                                                                    font-weight: 400;
+                                                                                                                                                                                                    line-height: 1.8em;
+                                                                                                                                                                                                    color: #666;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main1,
+                                                                                                                                                                                                #main3,
+                                                                                                                                                                                                #main5,
+                                                                                                                                                                                                #main7,
+                                                                                                                                                                                                #main9 {
+                                                                                                                                                                                                    background-attachment: fixed;
+                                                                                                                                                                                                    background-position: center;
+                                                                                                                                                                                                    background-size: cover;
+                                                                                                                                                                                                    background-repeat: no-repeat;
+                                                                                                                                                                                                    opacity: 0.7;
+                                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                                    align-items: center;
+                                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main1 div,
+                                                                                                                                                                                                #main5 div,
+                                                                                                                                                                                                #main7 div,
+                                                                                                                                                                                                #main9 div {
+                                                                                                                                                                                                    font-size: 44px;
+                                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                                    letter-spacing: 10px;
+                                                                                                                                                                                                    width: auto;
+                                                                                                                                                                                                    height: 120px;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                span {
+                                                                                                                                                                                                    padding: 34px;
+                                                                                                                                                                                                    color: white;
+                                                                                                                                                                                                    background-color: rgba(0, 0, 0, 0.8);
+                                                                                                                                                                                                    border-top-left-radius: 30px;
+                                                                                                                                                                                                    border-bottom-right-radius: 30px;
+                                                                                                                                                                                                    outline: 0.5rem inset purple;
+                                                                                                                                                                                                    outline-offset: 1rem;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main2,
+                                                                                                                                                                                                #main6 {
+                                                                                                                                                                                                    padding: 100px;
+                                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main4,
+                                                                                                                                                                                                #main8 {
+                                                                                                                                                                                                    padding: 100px;
+                                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                                    background-color: rgb(41, 41, 41);
+                                                                                                                                                                                                    color: white;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main1 {
+                                                                                                                                                                                                    background-image: url('./images/bg.jpg');
+                                                                                                                                                                                                    min-height: 100%;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main3 {
+                                                                                                                                                                                                    background-image: url('./images/bg1.jpg');
+                                                                                                                                                                                                    min-height: 80%;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main3-img {
+                                                                                                                                                                                                    width: 700px;
+                                                                                                                                                                                                    height: auto;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main5 {
+                                                                                                                                                                                                    background-image: url('./images/bg2.jpg');
+                                                                                                                                                                                                    min-height: 80%;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main7 {
+                                                                                                                                                                                                    background-image: url('./images/bg3.jpg');
+                                                                                                                                                                                                    min-height: 80%;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                #main9 {
+                                                                                                                                                                                                    background-image: url('./images/bg4.jpg');
+                                                                                                                                                                                                    min-height: 100%;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                h1 {
+                                                                                                                                                                                                    align-items: center;
+                                                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                                    font-size: 2.5em;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                p {
+                                                                                                                                                                                                    font-size: 1.5em;
+                                                                                                                                                                                                    line-height: 50px;
+                                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
+                                                                                                                                                                                                @media screen and(max-width: 700px) {
+                                                                                                                                                                                                    #main1,
+                                                                                                                                                                                                    #main5,
+                                                                                                                                                                                                    #main7,
+                                                                                                                                                                                                    #main9 {
+                                                                                                                                                                                                        background-attachment: scroll;
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    #main1 div,
+                                                                                                                                                                                                    #main5 div,
+                                                                                                                                                                                                    #main7 div,
+                                                                                                                                                                                                    #main9 div {
+                                                                                                                                                                                                        font-size: 1rem;
+                                                                                                                                                                                                        margin: 5px;
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    #main5 div {
+                                                                                                                                                                                                        margin: 3px;
+                                                                                                                                                                                                        letter-spacing: 1px;
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    h1 {
+                                                                                                                                                                                                        font-size: 2rem;
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
