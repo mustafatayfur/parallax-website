@@ -139,4 +139,7 @@ h2 {
         height: auto;
         transition: 300ms;
     }
+    span {
+        line-height: 3rem;
+    }
 }
